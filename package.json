@@ -17,6 +17,6 @@
   },
   "scripts": {
     "start": "node server.js",
-    "heroku-postbuild" : "npm install"
+    "heroku-postbuild" : "npm run build"
   }
 }
